@@ -1,0 +1,53 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: gray;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 500px!important;
+    height: 500px;
+    border-radius: 8px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    margin: 100px auto;
+}
+
+.box {
+    background-color: white;
+    width: 400px;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.384);
+}
+
+.form-group > input {
+    border: none!important;
+    border-radius: 0!important;
+    background-color: rgb(233, 233, 233);
+}
+
+.form-group > input:focus {
+    box-shadow: none!important;
+    outline: none!important;
+    background-color: rgb(233, 233, 233);
+}
+
+.submit {
+    width: 100%;
+}
+
+.link {
+    text-align: center;
+}
+
+.text {
+    margin-top: 20px;
+}
